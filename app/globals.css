@@ -133,12 +133,26 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Inter";
+  src: url("../public/fonts/Inter-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../public/fonts/Inter-Regular.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
   body {
-    @apply box-border m-0 p-0;
+    @apply box-border m-0 p-0 bg-[#ECE5DE];
   }
 
   .TEXT-MD-NORMAL {
