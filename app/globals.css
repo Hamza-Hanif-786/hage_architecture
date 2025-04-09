@@ -5,6 +5,8 @@
 
 @theme {
   --breakpoint-sm: 576px;
+  --aspect-mobile: 9 / 16;
+  --aspect-tablet: 3 / 4;
 }
 
 @theme inline {
