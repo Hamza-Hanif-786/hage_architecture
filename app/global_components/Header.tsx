@@ -59,7 +59,7 @@ const Header = () => {
 
                         <div className="flex items-center gap-2 md:gap-4">
                             <div>
-                                <Link className="bg-[#E44F39] px-2.5 py-2 md:px-4 md:py-3 text-base font-medium text-white font-['Inter'] rounded-none hover:bg-[#E44F39]/80 transition-all duration-300 ease-in" href="/contact">
+                                <Link className="bg-[#E44F39] px-2.5 py-2 md:px-4 md:py-3 text-base font-medium text-white font-['Inter'] rounded-none hover:bg-black transition-all duration-300 ease-in" href="/contact">
                                     Get Started
                                 </Link>
                                 
