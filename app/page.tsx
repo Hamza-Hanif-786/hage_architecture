@@ -2,6 +2,7 @@ import React from 'react';
 import HeroSection from './sections/homepage/HeroSection';
 import AboutSection from './sections/homepage/AboutSection';
 import ServiceSection from './sections/homepage/ServiceSection';
+import ProjectSection from './sections/homepage/ProjectSection';
 
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <ServiceSection />
+      <ProjectSection />
     </>
   );
 }
