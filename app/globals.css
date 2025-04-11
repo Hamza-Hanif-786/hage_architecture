@@ -7,6 +7,7 @@
   --breakpoint-sm: 576px;
   --aspect-mobile: 9 / 16;
   --aspect-tablet: 3 / 4;
+  --aspect-tablet-landscape: 4 / 3;
 }
 
 @theme inline {
