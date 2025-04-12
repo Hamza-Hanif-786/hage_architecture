@@ -7,6 +7,43 @@ import project3pic from '@/public/images/project3.webp'
 import project4pic from '@/public/images/project4.webp'
 
 const ProjectSection = () => {
+    const projects = [
+        {
+            title: "Urban Oasis",
+            description: "A modern apartment designed for urban living, featuring sleek aesthetics and smart",
+            imageUrl: project1pic.src,
+            city: "Jakarta",
+            year: "2023",
+            type: "Residential",
+        },
+        {
+            title: "Coastal Retreat",
+            description: "A beachfront villa that seamlessly blends indoor and outdoor living, capturing the essence of coastal luxury.",
+            imageUrl: project2pic.src,
+            city: "Bali",
+            year: "2022",
+            type: "Residential",
+            direction: "rtl"
+        },
+        {
+            title: "Corporate Hub",
+            description: "A contemporary office space designed to foster collaboration and productivity among employees, with an emphasis on modern amenities and flexible workspaces.",
+            imageUrl: project3pic.src,
+            city: "Surabaya",
+            year: "2021",
+            type: "Commercial",
+        },
+        {
+            title: "Boutique Bistro",
+            description: "An intimate restaurant nestled in a historic district, exuding charm and sophistication while offering a memorable dining experience.",
+            imageUrl: project4pic.src,
+            city: "Yogyakarta",
+            year: "2020",
+            type: "Commercial",
+            direction: "rtl"
+        }
+    ];
+
   return (
     <div className="px-8 py-24">
         <div className='flex flex-col gap-11'>
@@ -26,40 +63,18 @@ const ProjectSection = () => {
 
         
             <div>
-                <ProjectCard
-                    title="Urban Oasis" 
-                    description="A modern apartment designed for urban living, featuring sleek aesthetics and smart"
-                    imageUrl={project1pic.src} 
-                    city="Jakarta"
-                    year="2023"
-                    type="Residential"
-                />
-                <ProjectCard
-                    title="Coastal Retreat" 
-                    description="A beachfront villa that seamlessly blends indoor and outdoor living, capturing the essence of coastal luxury."
-                    imageUrl={project2pic.src} 
-                    city="Bali"
-                    year="2022"
-                    type="Residential"
-                    direction='rtl'
-                />
-                <ProjectCard
-                    title="Corporate Hub" 
-                    description="A contemporary office space designed to foster collaboration and productivity among employees, with an emphasis on modern amenities and flexible workspaces."
-                    imageUrl={project3pic.src} 
-                    city="Surabaya"
-                    year="2021"
-                    type="Commercial"
-                />
-                <ProjectCard
-                    title="Boutique Bistro" 
-                    description="An intimate restaurant nestled in a historic district, exuding charm and sophistication while offering a memorable dining experience."
-                    imageUrl={project4pic.src} 
-                    city="Yogyakarta"
-                    year="2024"
-                    type="Architectural"
-                    direction='rtl'
-                />
+                {projects.map((project, index) => (
+                    <ProjectCard
+                        key={index}
+                        title={project.title}
+                        description={project.description}
+                        imageUrl={project.imageUrl}
+                        city={project.city}
+                        year={project.year}
+                        type={project.type}
+                        direction={project.direction as 'ltr' | 'rtl' | undefined} 
+                    />
+                ))}
             </div>
         </div>
     </div>
