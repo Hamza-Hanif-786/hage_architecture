@@ -1,6 +1,7 @@
+"use client";
+
 import React from 'react'
 import Image from 'next/image'
-import { Star } from 'lucide-react'
 import TestimonialImage from "@/public/images/testimonial-image.webp"
 import { 
     Avatar, 
@@ -19,7 +20,7 @@ import avatar2 from "@/public/images/male2.webp"
 import avatar3 from "@/public/images/male3.webp"
 import avatar4 from "@/public/images/female1.webp"
 import avatar5 from "@/public/images/female2.webp"
-
+import Rating from '@/app/components/Rating'
 
 
 const TestimonialSection = () => {
@@ -36,7 +37,7 @@ const TestimonialSection = () => {
             name: "Jane Smith",
             designation: "Restaurant Owner",
             avatar: avatar2,
-            rating: 5,
+            rating: 4.3,
             comment: "HAGE is a game-changer for design professionals. It streamlines the entire process, from concept to execution, and empowers us to deliver exceptional results every time."
         },
         {
@@ -57,7 +58,7 @@ const TestimonialSection = () => {
             name: "Emily Davis",
             designation: "Interior Designer",
             avatar: avatar5,
-            rating: 4,
+            rating: 4.5,
             comment: "HAGE has truly revolutionized my design process. Their innovative tools and resources have elevated my projects to new heights. Highly recommended!"
         }
     ];
@@ -79,9 +80,15 @@ const TestimonialSection = () => {
                                 <div className='flex flex-col justify-between gap-10 xl:gap-12 h-full'>
                                     <div className='space-y-6'>
                                         <div className='flex items-center gap-1'>
-                                            {[...Array(testimonial.rating)].map((_, i) => (
-                                                <Star key={i} className='text-[#FEC84B] w-5 h-5 fill-[#FEC84B]' />
-                                            ))}
+                                            <Rating
+                                                readonly={true}
+                                                size={25}
+                                                activeColor="#FEC84B"
+                                                inactiveColor='#cbd5e1'
+                                                count={5}
+                                                initialValue={testimonial.rating}
+                                                className='text-[#FEC84B]'
+                                            />
                                         </div>
                                         <p className="text-gray-900 text-xl sm:text-2xl md:text-3xl xl:text-4xl font-medium font-['Satoshi']">
                                             {testimonial.comment}
