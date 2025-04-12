@@ -71,20 +71,23 @@ const TestimonialSection = () => {
                     At Hage, our greatest satisfaction comes from exceeding our client&apos;s expectations. Don&apos;t just take our word for it—discover what our clients have to say about their experience working with us:
                 </p>
             </div>
-            <div className='container flex flex-col lg:flex-row items-center justify-between gap-16'>
+            <div className='container flex flex-col lg:flex-row items-center justify-between gap-8 xl:gap-16'>
                 <Carousel className='w-full lg:w-1/2' opts={{ loop: true}}>
                     <CarouselContent>
                         {testimonials.map((testimonial, index) => (
                             <CarouselItem key={index}>
-                                <div className='flex flex-col gap-10 xl:gap-12'>
-                                    <div className='flex items-center gap-1'>
-                                        {[...Array(testimonial.rating)].map((_, i) => (
-                                            <Star key={i} className='text-[#FEC84B] w-5 h-5 fill-[#FEC84B]' />
-                                        ))}
+                                <div className='flex flex-col justify-between gap-10 xl:gap-12 h-full'>
+                                    <div className='space-y-6'>
+                                        <div className='flex items-center gap-1'>
+                                            {[...Array(testimonial.rating)].map((_, i) => (
+                                                <Star key={i} className='text-[#FEC84B] w-5 h-5 fill-[#FEC84B]' />
+                                            ))}
+                                        </div>
+                                        <p className="text-gray-900 text-xl sm:text-2xl md:text-3xl xl:text-4xl font-medium font-['Satoshi']">
+                                            {testimonial.comment}
+                                        </p>
                                     </div>
-                                    <p className="text-gray-900 text-xl sm:text-2xl md:text-3xl xl:text-5xl font-medium font-['Satoshi']">
-                                        {testimonial.comment}
-                                    </p>
+
                                     <div className='flex items-center justify-between w-full'>
                                         <div className='flex items-center gap-4'>
                                             <Avatar className='w-14 h-14'>
@@ -107,13 +110,13 @@ const TestimonialSection = () => {
                             </CarouselItem>
                         ))}
                     </CarouselContent>
-                    <div className='flex items-center justify-end w-full gap-2 mt-5'>
-                        <CarouselPrevious className="text-black bg-white rounded-full p-5 relative inset-0 translate-y-0" />
-                        <CarouselNext className="text-black bg-white rounded-full p-5 relative inset-0 translate-y-0" />
+                    <div className='flex items-center justify-end w-full gap-2'>
+                        <CarouselPrevious className="text-black bg-white rounded-full p-5 relative inset-0 translate-y-0 cursor-pointer" />
+                        <CarouselNext className="text-black bg-white rounded-full p-5 relative inset-0 translate-y-0 cursor-pointer" />
                     </div>
                 </Carousel>
-                <div className='w-full lg:w-1/2 flex items-center justify-center'>
-                    <Image src={TestimonialImage} alt="Testimonial" className='aspect-tablet-landscape' />
+                <div className='w-full lg:w-1/2 flex items-start justify-center'>
+                    <Image src={TestimonialImage} alt="Testimonial" className='' />
                 </div>
             </div>
         </div>
