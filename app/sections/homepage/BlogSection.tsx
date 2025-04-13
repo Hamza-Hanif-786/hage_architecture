@@ -30,7 +30,7 @@ const BlogSection = () => {
             <div className='flex flex-col gap-6 sm:gap-9 md:gap-11'>
                 <div className='flex flex-row items-center justify-between w-full gap-2'>
                     <h4 className="uppercase text-lg md:text-xl lg:text-2xl font-normal font-['Satoshi'] text-carot">/06 Explore Our Blogs</h4>
-                    <Link className="uppercase bg-carot px-2.5 py-2 md:px-4 md:py-3 text-sm sm:text-base font-medium text-white font-['Inter'] rounded-none hover:scale-105 transition-all duration-300 ease-in" href="/blogs">
+                    <Link className="text-center uppercase bg-carot px-2.5 py-2 md:px-4 md:py-3 text-sm sm:text-base font-medium text-white font-['Inter'] rounded-none hover:scale-105 transition-all duration-300 ease-in" href="/blogs">
                         More Blogs
                     </Link>
                 </div>

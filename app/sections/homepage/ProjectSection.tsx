@@ -49,8 +49,8 @@ const ProjectSection = () => {
         <div className='flex flex-col gap-11'>
             <div className='flex flex-col gap-9 sm:gap-11'>
                 <div className='flex flex-row items-center justify-between w-full'>
-                    <h4 className="uppercase text-lg md:text-xl lg:text-2xl font-normal font-['Satoshi'] text-[#E44F39]">/04 Latest Project</h4>
-                    <Link className="uppercase bg-[#E44F39] px-2.5 py-2 md:px-4 md:py-3 text-sm sm:text-base font-medium text-white font-['Inter'] rounded-none hover:bg-black transition-all duration-300 ease-in" href="/project">
+                    <h4 className="uppercase text-lg md:text-xl lg:text-2xl font-normal font-['Satoshi'] text-carot">/04 Latest Project</h4>
+                    <Link className="text-center uppercase bg-carot px-2.5 py-2 md:px-4 md:py-3 text-sm sm:text-base font-medium text-white font-['Inter'] rounded-none hover:bg-black transition-all duration-300 ease-in" href="/project">
                         More Project
                     </Link>
                 </div>
