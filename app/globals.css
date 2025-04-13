@@ -4,7 +4,6 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --breakpoint-xsm: 320px;
   --breakpoint-sm: 576px;
   --aspect-mobile: 9 / 16;
   --aspect-tablet: 3 / 4;
