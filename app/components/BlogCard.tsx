@@ -21,7 +21,7 @@ const BlogCard: React.FC<BlogCardProps> = ({image, title, date, description, lin
                 <p className="text-white text-sm sm:text-base font-normal font-['Inter'] mt-3">{description}</p>
             </div>
             <div>
-                <Link href={link} className="uppercase bg-[#E44F39] px-2.5 py-2 md:px-4 md:py-3 text-sm sm:text-base font-medium text-white font-['Inter'] rounded-none hover:scale-105 transition-all duration-300 ease-in">
+                <Link href={link} className="uppercase bg-carot px-2.5 py-2 md:px-4 md:py-3 text-sm sm:text-base font-medium text-white font-['Inter'] rounded-none hover:scale-105 transition-all duration-300 ease-in">
                     Read More
                 </Link>
             </div>
