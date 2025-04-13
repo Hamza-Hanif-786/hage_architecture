@@ -117,7 +117,7 @@ const TestimonialSection = () => {
                             </CarouselItem>
                         ))}
                     </CarouselContent>
-                    <div className='flex items-center justify-end w-full gap-2'>
+                    <div className='flex items-center justify-end w-full gap-2 mt-2 sm:mt-0'>
                         <CarouselPrevious className="text-black bg-white rounded-full p-5 relative inset-0 translate-y-0 cursor-pointer" />
                         <CarouselNext className="text-black bg-white rounded-full p-5 relative inset-0 translate-y-0 cursor-pointer" />
                     </div>
