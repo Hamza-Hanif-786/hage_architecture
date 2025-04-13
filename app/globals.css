@@ -4,10 +4,12 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
+  --breakpoint-xsm: 320px;
   --breakpoint-sm: 576px;
   --aspect-mobile: 9 / 16;
   --aspect-tablet: 3 / 4;
   --aspect-tablet-landscape: 4 / 3;
+  --color-carot: oklch(0.63 0.1888 31.18);
 }
 
 @theme inline {
