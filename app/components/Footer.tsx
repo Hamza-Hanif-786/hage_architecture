@@ -42,7 +42,7 @@ const Footer = () => {
           <div className='flex flex-col gap-4 w-full lg:w-[30%]'>
             <p className="text-white text-sm font-medium font-['Inter']">Stay up to date</p>
             <div className='flex flex-col sm:flex-row items-center gap-4'>
-              <Input type='email' placeholder='Enter your email' className='w-full px-3.5 py-3 h-auto bg-white rounded-none placeholder:text-[#717171]' />
+              <Input type='email' placeholder='Enter your email' className='w-full px-3.5 py-3 h-auto bg-white rounded-none focus-visible:ring-0 placeholder:text-[#717171]' />
               <button className='w-full sm:w-auto cursor-pointer px-4 py-3 bg-carot rounded-none text-white text-base font-medium font-["Inter"] hover:bg-carot/80 transition-all duration-300 ease-in-out'>
                 Subscribe
               </button>
