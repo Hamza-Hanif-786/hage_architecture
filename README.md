@@ -5,6 +5,8 @@
 
 
 
+
+
 ## ✨ Features
 
 - 🎨 **Figma Design Integration**: Implemented the sleek and modern UI from the HAGE template to ensure a visually appealing user experience.
@@ -15,3 +17,17 @@
 - 🎥 **Animations**: Enhanced user interactions with smooth animations using Framer Motion.
 - 🌐 **HTTP Requests**: Managed API calls seamlessly with Axios.
 
+
+
+
+
+## 🧩 Pages Included
+
+- 🏠 **Home**: Landing page with an overview of services.
+- 👤 **About**: Information about the architect/designer.
+- 🏗️ **Projects**: Showcase of completed works.
+- ✉️ **Contact**: Form to get in touch.
+- 📰 **Blog**: Articles and updates.
+- 🛠️ **Services**: Detailed list of offerings.
+- 📄 **Privacy Policy**, **Terms of Service**, **Cookie Policy**
+- 🚫 **404 Page**: Custom not-found page.
