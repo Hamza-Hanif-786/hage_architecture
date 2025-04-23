@@ -5,8 +5,6 @@
 
 
 
-
-
 ## ✨ Features
 
 - 🎨 **Figma Design Integration**: Implemented the sleek and modern UI from the HAGE template to ensure a visually appealing user experience.
@@ -16,8 +14,6 @@
 - 🔄 **Data Fetching**: Implemented TanStack React Query for optimized data synchronization and caching.
 - 🎥 **Animations**: Enhanced user interactions with smooth animations using Framer Motion.
 - 🌐 **HTTP Requests**: Managed API calls seamlessly with Axios.
-
-
 
 
 
@@ -31,3 +27,16 @@
 - 🛠️ **Services**: Detailed list of offerings.
 - 📄 **Privacy Policy**, **Terms of Service**, **Cookie Policy**
 - 🚫 **404 Page**: Custom not-found page.
+
+
+
+## 🛠️ Technologies Used
+
+### Frontend
+- Next.js 15
+- Tailwindcss v4
+- TypeScript
+- Formik & Yup
+- TanStack React Query
+- Framer Motion
+- Axios
