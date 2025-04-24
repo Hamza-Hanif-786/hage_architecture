@@ -8,7 +8,7 @@ import { FaTwitter, FaLinkedin, FaFacebook, FaGithub, FaDribbble } from "react-i
 
 const Footer = () => {
   return (
-    <div className='px-8 py-24 bg-black'>
+    <div className='px-4 sm:px-6 md:px-8 py-24 bg-black'>
       <div className='flex flex-col gap-8'>
         <div className='flex flex-col lg:flex-row justify-between w-full gap-7'>
           <div className='flex flex-col gap-7 xl:gap-10 w-full lg:w-1/2'>
