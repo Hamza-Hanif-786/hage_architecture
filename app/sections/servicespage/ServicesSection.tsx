@@ -63,7 +63,7 @@ const ServicesSection = () => {
   ]
 
   return (
-    <div className='px-8 py-24'>
+    <div className='px-4 sm:px-6 md:px-8 py-24'>
       <Accordion type="single" collapsible className="w-full">
         {services.map((service) => (
           <div key={service.id} className='p-5 border-y border-neutral-500'>

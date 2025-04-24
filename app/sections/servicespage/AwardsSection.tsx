@@ -12,7 +12,7 @@ const AwardsSection = () => {
     ];
 
   return (
-    <div className='px-8 py-24'>
+    <div className='px-4 sm:px-6 md:px-8 py-24'>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
             <div>
                 <Image src={awardimage} alt='service image' className='h-full w-[750px] aspect-tablet object-cover' />
