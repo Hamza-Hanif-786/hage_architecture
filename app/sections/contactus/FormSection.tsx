@@ -9,7 +9,7 @@ import contactimage from "@/public/images/contact_image.webp"
 
 const FormSection = () => {
   return (
-    <div className='px-8 py-24 flex flex-col gap-11'>
+    <div className='px-4 sm:px-6 md:px-8 py-24 flex flex-col gap-11'>
       <div className='flex flex-col gap-10'>
         <h1 className="text-black text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold font-['Satoshi'] uppercase">
           DROP US A LINE - WE&apos;LL GET <span className="text-carot">BACK TO YOU.</span>

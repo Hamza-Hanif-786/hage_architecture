@@ -48,7 +48,7 @@ const page = () => {
 
   return (
     <div>
-        <div className='px-8 py-24 inline-flex flex-col justify-start items-start gap-7 xl:gap-11'>
+        <div className='px-4 sm:px-6 md:px-8 py-24 inline-flex flex-col justify-start items-start gap-7 xl:gap-11'>
             <div className='flex flex-col justify-start items-start gap-4 sm:gap-6 md:gap-7 xl:gap-10'>
                 <h1 className="uppercase text-black text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold font-['Satoshi']">
                     Latest <span className='text-carot'> Project</span>
@@ -62,7 +62,7 @@ const page = () => {
                 <Image alt='Hero Image' src={projectheroimage} className='aspect-video' />
             </div>
         </div>
-        <div className='px-8 py-24'>
+        <div className='px-4 sm:px-6 md:px-8 py-24'>
             {projects.map((project, index) => (
                 <ProjectCard
                     key={index}
