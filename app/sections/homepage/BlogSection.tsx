@@ -25,7 +25,7 @@ const BlogSection = () => {
     ];
 
   return (
-    <div className='px-8 py-24 bg-black'>
+    <div className='px-4 sm:px-6 md:px-8 py-24 bg-black'>
         <div className='flex flex-col gap-11'>
             <div className='flex flex-col gap-6 sm:gap-9 md:gap-11'>
                 <div className='flex flex-row items-center justify-between w-full gap-2'>

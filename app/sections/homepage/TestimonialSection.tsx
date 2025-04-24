@@ -64,7 +64,7 @@ const TestimonialSection = () => {
     ];
 
   return (
-    <div className='px-8 py-24'>
+    <div className='px-4 sm:px-6 md:px-8 py-24'>
         <div className='flex flex-col gap-11'>
             <div className='flex flex-col gap-8 lg:gap-11 w-full lg:w-1/2'>
                 <h4 className="uppercase text-lg md:text-xl lg:text-2xl font-normal font-['Satoshi'] text-carot">/05 Testimonials</h4>

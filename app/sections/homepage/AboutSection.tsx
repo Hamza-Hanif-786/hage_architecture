@@ -5,7 +5,7 @@ import aboutimage from '@/public/images/home_about_image.webp'
 const AboutSection = () => {
   return (
     <div className='bg-black'>
-        <div className='px-8 py-24 inline-flex flex-col justify-start items-start gap-5 md:gap-7 lg:gap-9 xl:gap-11'>
+        <div className='px-4 sm:px-6 md:px-8 py-24 inline-flex flex-col justify-start items-start gap-5 md:gap-7 lg:gap-9 xl:gap-11'>
             <h4 className="uppercase text-lg md:text-xl lg:text-2xl font-normal font-['Satoshi'] text-carot">/02 About</h4>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
                 <div>
@@ -21,7 +21,7 @@ const AboutSection = () => {
                 </div>
             </div>
         </div>
-        <div className='px-8 pb-24 pt-0 lg:pt-24 inline-flex flex-col justify-start items-start gap-7 md:gap-9 xl:gap-11'>
+        <div className='px-4 sm:px-6 md:px-8 pb-24 pt-0 lg:pt-24 inline-flex flex-col justify-start items-start gap-7 md:gap-9 xl:gap-11'>
             <p className="w-full lg:w-1/2 justify-start text-stone-200 text-base lg:text-lg xl:text-xl font-normal font-['Satoshi']">
                 Our mission is to merge creativity and functionality to craft spaces that not only meet the needs of today but also anticipate the demands of the future. We aim to push boundaries, challenge norms, and redefine the possibilities in interior design and architecture.
             </p>

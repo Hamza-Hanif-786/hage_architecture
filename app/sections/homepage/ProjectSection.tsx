@@ -45,7 +45,7 @@ const ProjectSection = () => {
     ];
 
   return (
-    <div className="px-8 py-24">
+    <div className="px-4 sm:px-6 md:px-8 py-24">
         <div className='flex flex-col gap-11'>
             <div className='flex flex-col gap-9 sm:gap-11'>
                 <div className='flex flex-row items-center justify-between w-full'>
