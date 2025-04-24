@@ -5,7 +5,7 @@ import aboutimage from '@/public/images/home_about_image.webp'
 const AboutSection = () => {
   return (
     <div className='bg-black'>
-        <div className='px-8 py-24 inline-flex flex-col justify-start items-start gap-5 md:gap-7 lg:gap-9 xl:gap-11'>
+        <div className='px-4 sm:px-6 md:px-8 py-24 inline-flex flex-col justify-start items-start gap-5 md:gap-7 lg:gap-9 xl:gap-11'>
             <h4 className="uppercase text-lg md:text-xl lg:text-2xl font-normal font-['Satoshi'] text-carot">WHY HAGE?</h4>
             <div className='flex flex-col md:flex-row gap-5 w-full'>
                 <div className='w-full md:w-[55%]'>
