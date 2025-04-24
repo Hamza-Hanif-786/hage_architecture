@@ -7,11 +7,11 @@ import Link from 'next/link'
 
 const ServiceSection = () => {
     const servicelinks = [
-        { name: 'Interior Design', link: '/service/interior-design' },
-        { name: 'Architectural Design', link: '/service/architectural-design' },
-        { name: 'Space Planning', link: '/service/space-planning' },
-        { name: 'Project Management', link: '/service/project-management' },
-        { name: 'Consultation and Collaboration', link: '/service/consultation-and-collaboration' },
+        { name: 'Interior Design', link: '/services/servicedetail' },
+        { name: 'Architectural Design', link: '/services/servicedetail' },
+        { name: 'Space Planning', link: '/services/servicedetail' },
+        { name: 'Project Management', link: '/services/servicedetail' },
+        { name: 'Consultation and Collaboration', link: '/services/servicedetail' },
     ]
   return (
     <div className='px-8 py-24'>
