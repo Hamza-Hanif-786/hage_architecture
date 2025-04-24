@@ -13,7 +13,7 @@ const page = () => {
                 Please read them carefully.
             </p>
         </div>
-        <div className='px-8 pb-24 flex flex-col gap-12 items-center'>
+        <div className='px-4 sm:px-6 md:px-8 pb-24 flex flex-col gap-12 items-center'>
             <div className='gap-12 w-full md:w-[80%] lg:w-[70%] xl:w-1/2 flex flex-col items-center'>
                 <div className='space-y-5'>
                     <h3 className="text-black text-3xl sm:text-4xl md:text-5xl font-bold font-['Satoshi']">Use of Website</h3>
