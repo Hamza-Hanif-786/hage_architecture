@@ -3,7 +3,7 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-        <div className='px-8 py-24 flex flex-col gap-5 md:gap-7 lg:gap-10'>
+        <div className='px-4 sm:px-6 md:px-8 py-24 flex flex-col gap-5 md:gap-7 lg:gap-10'>
             <h1 className="text-black text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold font-['Satoshi'] uppercase">
                 PRIVACY <span className="text-carot">POLICY</span>
             </h1>
