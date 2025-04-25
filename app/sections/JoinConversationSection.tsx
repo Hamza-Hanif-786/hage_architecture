@@ -16,7 +16,7 @@ const JoinConversationSection = () => {
                     </p>
                 </div>
                 <div className='w-full md:w-[30%] lg:w-[40%] xl:w-1/2 relative'>
-                    <Link className="absolute top-0 left-0 text-center uppercase bg-black px-5 py-[18px] text-sm sm:text-base font-medium text-white font-['Inter'] rounded-none hover:scale-105 transition-all duration-300 ease-in" href="/contact">
+                    <Link className="absolute top-0 left-0 text-center uppercase bg-black px-8 py-[18px] text-sm sm:text-base font-medium text-white font-['Inter'] rounded-none hover:scale-105 transition-all duration-300 ease-in" href="/contact">
                         Get Started
                     </Link>
                 </div>
