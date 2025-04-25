@@ -12,7 +12,7 @@ const BlogSection = () => {
             title: 'Design Tips for Maximizing Your Square Footage',
             date: 'May 20, 2023',
             description: 'Dive into our guide on making the most of compact living spaces, with tips on clever storage solutions, multi-functional furniture, and space-saving design hacks.',
-            link: '/blogs/design-tips-for-maximizing-your-square-footage'
+            link: '/blogs/blogdetail'
         },
         {
             id: 2,
@@ -20,7 +20,7 @@ const BlogSection = () => {
             title: 'Building a Greener Future, One Project at a Time',
             date: 'Jan 28, 2024',
             description: 'Join us as we dive into the world of sustainable design practices, from eco-friendly materials to energy-efficient technologies, and discover how you can make a positive impact on the environment through your design choices.',
-            link: '/blogs/building-a-greener-future-one-project-at-a-time'
+            link: '/blogs/blogdetail'
         },
     ];
 
