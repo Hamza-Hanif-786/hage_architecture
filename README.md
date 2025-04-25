@@ -24,7 +24,9 @@
 - 🏗️ **Projects**: Showcase of completed works.
 - ✉️ **Contact**: Form to get in touch.
 - 📰 **Blog**: Articles and updates.
+- 📜 **Blog Detail**: Detailed blog posts.
 - 🛠️ **Services**: Detailed list of offerings.
+- 📝 **Service Detail**: Detail of service.
 - 📄 **Privacy Policy**, **Terms of Service**, **Cookie Policy**
 - 🚫 **404 Page**: Custom not-found page.
 
