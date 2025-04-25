@@ -15,7 +15,7 @@ const page = () => {
             title: 'Design Tips for Maximizing Your Square Footage',
             description: 'Dive into our guide on making the most of compact living spaces, with tips on clever storage solutions, multi-functional furniture, and space-saving design hacks.',
             date: 'April 15, 2025',
-            link: '/blogs/design-tips-for-maximizing-your-square-footage'
+            link: '/blogs/blogdetail'
         },
         {
             id: 2,
@@ -23,7 +23,7 @@ const page = () => {
             title: 'Building a Greener Future, One Project at a Time',
             description: 'Join us as we delve into the world of sustainable design practices, from eco-friendly materials to energy-efficient technologies, and discover how you can make a positive impact on the environment through your design choices.',
             date: 'January 10, 2025',
-            link: '/blogs/building-a-greener-future-one-project-at-a-time'
+            link: '/blogs/blogdetail'
         },
         {
             id: 3,
@@ -31,7 +31,7 @@ const page = () => {
             title: '10 Timeless Interior Design Trends to Elevate Your Space',
             description: 'Uncover the timeless design trends that will stand the test of time and bring elegance and sophistication to your interiors.',
             date: 'December 28, 2024',
-            link: '/blogs/10-timeless-interior-design-trends-to-elevate-your-space'
+            link: '/blogs/blogdetail'
         },
         {
             id: 4,
@@ -39,7 +39,7 @@ const page = () => {
             title: 'The Future of Architecture: Trends Shaping the Built Environment',
             description: 'Explore the latest trends and innovations shaping the future of architecture, from sustainable design practices to cutting-edge technologies.',
             date: 'August 12, 2024',
-            link: '/blogs/the-future-of-architecture-trends-shaping-the-built-environment'
+            link: '/blogs/blogdetail'
         },
         {
             id: 5,
@@ -47,7 +47,7 @@ const page = () => {
             title: 'Creating Functional Workspaces: Tips for Designing Productive Office Environments',
             description: 'Discover practical tips and strategies for designing functional and inspiring workspaces that enhance productivity and well-being.',
             date: 'March 09, 2023',
-            link: '/blogs/creating-functional-workspaces-tips-for-designing-productive-office-environments'
+            link: '/blogs/blogdetail'
         },
         {
             id: 6,
@@ -55,7 +55,7 @@ const page = () => {
             title: 'Designing for Wellness: Integrating Biophilic Elements into Your Home',
             description: 'Learn how to incorporate biophilic design principles into your home to promote health, well-being, and connection with nature.',
             date: 'November 24, 2022',
-            link: '/blogs/designing-for-wellness-integrating-biophilic-elements-into-your-home'
+            link: '/blogs/blogdetail'
         }
     ];
 
