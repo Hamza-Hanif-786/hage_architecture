@@ -42,3 +42,41 @@
 - TanStack React Query
 - Framer Motion
 - Axios
+  
+
+
+## 🚀 Getting Started
+
+**1. Clone the repository**:
+```bash
+    git clone https://github.com/Hamza-Hanif-786/hage-architecture.git
+```
+
+**2. Navigate to the project directory**:
+```bash
+    cd hage-architecture
+```
+
+**3. Install dependencies**:
+```bash
+  npm install
+```
+
+**4. Run the development server**:
+```bash
+    npm run dev
+```
+
+**5. Access the application**: Open http://localhost:3000 in your browser.
+
+
+
+## 📄 License
+
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+
+
+
+## 🙌 Acknowledgements
+
+ - Design inspired by [HAGE – Architecture & Interior Design Framer Template.](https://www.framer.com/marketplace/templates/hage/).
