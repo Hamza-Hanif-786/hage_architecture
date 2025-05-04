@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import aboutimage from '@/public/images/home_about_image.webp'
+import { NumberTicker } from '@/components/ui/number-ticker'
 
 const AboutSection = () => {
   return (
@@ -27,19 +28,31 @@ const AboutSection = () => {
             </p>
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 w-full gap-y-7'>
                 <div className='flex flex-col justify-center items-center gap-4'>
-                    <h3 className='text-7xl md:text-8xl xl:text-9xl font-bold font-["Satoshi"] leading-20 xl:leading-28 text-carot'>15<span className='text-[#ece5de]'>+</span></h3>
+                    <h3 className='text-7xl md:text-8xl xl:text-9xl font-bold font-["Satoshi"] leading-20 xl:leading-28 text-carot'>
+                        15<span className='text-[#ece5de]'>+</span>
+                    </h3>
                     <p className='text-base md:text-lg xl:text-xl font-normal text-[#ece5de]'>Experience in the industry.</p>
                 </div>
                 <div className='flex flex-col justify-center items-center gap-4'>
-                    <h3 className='text-7xl md:text-8xl xl:text-9xl font-bold font-["Satoshi"] leading-20 xl:leading-28 text-carot'>250</h3>
+                    <NumberTicker 
+                        value={250} 
+                        startValue={0} 
+                        className='text-7xl md:text-8xl xl:text-9xl font-bold font-["Satoshi"] leading-20 xl:leading-28 text-carot' 
+                    /> 
                     <p className='text-base md:text-lg xl:text-xl font-normal text-[#ece5de]'>Projects Completed</p>
                 </div>
                 <div className='flex flex-col justify-center items-center gap-4'>
-                    <h3 className='text-7xl md:text-8xl xl:text-9xl font-bold font-["Satoshi"] leading-20 xl:leading-28 text-carot'>95<span className='text-[#ece5de]'>%</span></h3>
+                    <h3 className='text-7xl md:text-8xl xl:text-9xl font-bold font-["Satoshi"] leading-20 xl:leading-28 text-carot'>
+                        95<span className='text-[#ece5de]'>%</span>
+                    </h3>
                     <p className='text-base md:text-lg xl:text-xl font-normal text-[#ece5de]'>Client Satisfaction Rate</p>
                 </div>
                 <div className='flex flex-col justify-center items-center gap-4'>
-                    <h3 className='text-7xl md:text-8xl xl:text-9xl font-bold font-["Satoshi"] leading-20 xl:leading-28 text-carot'>10</h3>
+                    <NumberTicker 
+                        value={10} 
+                        startValue={0} 
+                        className='text-7xl md:text-8xl xl:text-9xl font-bold font-["Satoshi"] leading-20 xl:leading-28 text-carot' 
+                    />
                     <p className='text-base md:text-lg xl:text-xl font-normal text-[#ece5de]'>Awards and Recognitions</p>
                 </div>
             </div>
